@@ -1,0 +1,8 @@
+apiVersion : v1
+kind: Pod
+matadata:
+  name: sl-test-web
+spec:
+  containers:
+    - name: containers-apache
+      image: httpd:latest
